@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>{{ section.title }}</title>
+{% endblock head %}
+
+{% block content %}
+   <div class="bg-white w-1/2 px-10 mx-auto py-10 my-10 rounded">
+        <h1 class="text-center text-3xl font-semibold mb-10">
+            {{ section.title }}
+        </h1>
+        <div class="mx-auto prose">
+            {{ section.content | safe }}
+        </div>
+  </div>
+{% endblock content %}

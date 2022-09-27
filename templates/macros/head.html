@@ -1,0 +1,41 @@
+
+{% macro resource() %}
+<link rel="preload" as="font" href="{{ get_url(path="fonts/rubik.ttf") | safe }}" type="font/ttf" crossorigin>
+<link rel="preload" as="font" href="{{ get_url(path="fonts/rubik-italic.ttf") | safe }}"  type="font/ttf" crossorigin>
+{% endmacro %}
+
+
+{% macro stylesheet() %}
+<link rel="stylesheet" href="{{ get_url(path="/styles.css") | safe }}" crossorigin>
+{% endmacro %}
+
+
+{% macro favicons() %}
+<meta name="theme-color" content="{{ config.extra.theme_color | default(value="#fff") }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="apple-touch-icon.png") | safe }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path="favicon-32x32.png") | safe }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path="favicon-16x16.png") | safe }}">
+{% if not config.extra.is_netlify %}
+  <link rel="manifest" href="{{ get_url(path="site.webmanifest") | safe }}" crossorigin>
+{% endif %}
+{% endmacro %}
+
+
+
+{% if is_404 %}
+  <meta name="robots" content="noindex, follow">
+{% else %}
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+{% endif %}
+{% if current_url %}
+	{% set page_url = current_url %}
+{% else %}
+	{% set page_url = get_url(path="404.html") %}
+{% endif %}
+{% if current_path %}
+	{% set page_path = current_path %}
+{% else %}
+	{% set page_path = "/404.html" %}
+{% endif %}

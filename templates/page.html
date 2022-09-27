@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>{{ page.title }}</title>
+{% endblock head %}
+
+{% block content %}
+   <div class="bg-gray-50 px-10 mx-auto py-5 my-5 rounded lg:w-2/3 md:w-full">
+        {% if page.extra.thumbnail %}
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded" src="{{ page.extra.thumbnail }}" alt="blog">
+        {% else %}
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded" src="{{ config.extra.thumbnail }}" alt="blog">
+        {% endif %}
+        <h1 class="text-left text-3xl font-semibold mb-2 mt-4">
+            {{ page.title }}
+        </h1>
+        <span class="mb-6 mt-4 text-sm text-gray-700 flex space-x-4">
+            <p>Ditulis oleh <b>Lort Kegelaban</b> pada {{ page.date | date(format="%B %d, %Y") }}</p>
+        </span>
+        <div class="prose mt-2">
+            {{ page.content | safe }}
+        </div>
+  </div>
+{% endblock content %}

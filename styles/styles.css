@@ -1,0 +1,53 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face{
+    font-family: "rubik";
+    src: url(/fonts/rubik.ttf) format('truetype');
+ }
+ 
+
+ body{
+    font-family: "rubik", sans-serif;
+    background-color: #fafafa;
+ }
+
+
+.bg-prime{
+    background-color: #352f43;
+    @apply text-white;
+}
+
+.text-dark-prime {
+    color: #352f43;
+}
+
+.btn-prime {
+    background-color: #eeb395;
+    color: #352f43;
+}
+
+.btn-prime:hover {
+    background-color: #d69e83;
+    color: #352f43;
+}
+
+.btn-secondary {
+    border-color: #352f43;
+    @apply border-2;
+}
+
+.btn-secondary {
+    border-color: #352f43;
+    background-color: #352f43;
+    color: #eeb395;
+    @apply border-2;
+}
+
+::selection {
+    color: navy;
+    background: yellow;
+}
