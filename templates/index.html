@@ -40,7 +40,13 @@
                   {% endif %}
                   <div class="p-6">
                     {% if page.extra.category %}
-                        <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 uppercase text-teal-600">{{page.extra.category}}</h3>
+                        {% if page.extra.category == "filosofi" %}
+                            <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 uppercase text-fuchsia-800">{{page.extra.category}}</h3>
+                        {% elif page.extra.category == "koding" %}
+                            <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 uppercase text-sky-800">{{page.extra.category}}</h3>
+                        {% else %}
+                            <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 uppercase text-teal-600">{{page.extra.category}}</h3>
+                        {% endif %}
                     {% else %}
                         <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h3>
                     {% endif %}

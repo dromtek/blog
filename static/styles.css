@@ -1499,6 +1499,16 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-fuchsia-800 {
+  --tw-text-opacity: 1;
+  color: rgb(134 25 143 / var(--tw-text-opacity));
+}
+
+.text-sky-800 {
+  --tw-text-opacity: 1;
+  color: rgb(7 89 133 / var(--tw-text-opacity));
+}
+
 .text-teal-600 {
   --tw-text-opacity: 1;
   color: rgb(13 148 136 / var(--tw-text-opacity));
@@ -1643,6 +1653,10 @@ body{
 
   .lg\:h-48 {
     height: 12rem;
+  }
+
+  .lg\:h-64 {
+    height: 16rem;
   }
 
   .lg\:w-full {
