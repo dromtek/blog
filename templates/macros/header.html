@@ -20,21 +20,21 @@
     </div>
 </nav>
 
-<div x-cloak wire:ignore :class="{'w-56': sidebarOpen, 'w-0': !sidebarOpen}" class="fixed top-0 bottom-0 left-0 z-50 block w-56 h-full min-h-screen overflow-y-auto text-gray-50 transition-all duration-300 ease-in-out shadow-lg overflow-x-hidden">
-    <div class="flex flex-col items-stretch justify-between h-full bg-prime">
+<div x-cloak wire:ignore :class="{'w-56': sidebarOpen, 'w-0': !sidebarOpen}" class="fixed top-0 bottom-0 left-0 z-50 block w-0 h-full min-h-screen overflow-y-auto text-dark-prime transition-all duration-300 ease-in-out shadow-lg overflow-x-hidden">
+    <div class="flex flex-col items-stretch justify-between h-full bg-gray-50">
         <div class="flex flex-col flex-shrink-0 w-full">
             <div class="flex items-center justify-center px-8 py-3 text-center">
-                <a href="#" class="text-lg leading-normal text-gray-200 focus:outline-none focus:ring">Menu</a>
+                <a href="#" class="text-lg leading-normal text-dark-prime focus:outline-none focus:ring">Menu</a>
             </div>
             <nav>
                 <div class="flex-grow md:block md:overflow-y-auto overflow-x-hidden" :class="{'opacity-1': sidebarOpen, 'opacity-0': !sidebarOpen}">
-                    <a class="flex justify-start items-center px-4 py-3 hover:bg-gray-800 hover:text-gray-400 focus:bg-gray-800 focus:outline-none focus:ring" href="#">
+                    <a class="flex justify-start items-center px-4 py-3 hover:bg-gray-800 hover:text-gray-400 focus:bg-gray-800 focus:outline-none focus:ring" href="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                         <span class="mx-4">Home</span>
                     </a>
                 </div>
                 <div class="flex-grow md:block md:overflow-y-auto overflow-x-hidden" :class="{'opacity-1': sidebarOpen, 'opacity-0': !sidebarOpen}">
-                    <a class="flex justify-start items-center px-4 py-3 hover:bg-gray-800 hover:text-gray-400 focus:bg-gray-800 focus:outline-none focus:ring" href="#">
+                    <a class="flex justify-start items-center px-4 py-3 hover:bg-gray-800 hover:text-gray-400 focus:bg-gray-800 focus:outline-none focus:ring" href="/tentang">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
                         <span class="mx-4">Tentang</span>
                     </a>
