@@ -11,6 +11,7 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "watch": "parcel watch styles/styles.css --out-dir static --no-hmr --no-source-maps"
+    "watch": "parcel watch styles/styles.css --out-dir static --no-hmr --no-source-maps",
+    "build": "tailwindcss -i styles/styles.css -o static/styles.css"
   }
 }
