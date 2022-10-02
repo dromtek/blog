@@ -69,6 +69,11 @@ Selain kondisi file, ada hal terkait file sistem yang perlu kamu ketahui untuk m
 
 File sistem ini dibagi menjadi 3 juga:
 
+<center>
+    <img alt="worktree staging area" src="/pic/git-intro/wt-sa.png" />
+    <p>1. Working Tree, 2. Hasil kerjaan staging area</p>
+</center>
+
 - Working Tree
 
 Working tree adalah lokasi kamu saat berkerja dengan kode, seperti mengedit dan semacamnya.
@@ -85,7 +90,7 @@ Folder ini berisi database berisi tentang branch dan snapshotnya. Ini adalah jan
 
 ## Branching dan Merging
 
-Kita bisa membuat branch baru (`git switch -c <nama branch>`) untuk membuat perubahan terpisah dari main branch, sebagai contoh branch X dan Y.
+Kita bisa membuat branch baru (`git switch -c <nama branch>`) untuk membuat perubahan terpisah dari main branch, sebagai contoh branch X dan Y -- untuk melihat branch yang dimiliki `git branch`.
 
 Jadi bayangkan saja batang pohon rimbun yang ditebang denga cara rantingnya di potong-potong (`git merge`) supaya pohonya tumbuh lurus keatas contohnya dibawah ini:
 
@@ -98,7 +103,7 @@ Jadi bayangkan saja batang pohon rimbun yang ditebang denga cara rantingnya di p
 
 ### Distribusi
 
-Git memungkinkan kamu untuk berkolaborasi antar sesama koder, ini terjadi karena Git memiliki 3 mode :
+Git memungkinkan kamu untuk berkolaborasi antar sesama koder, ini terjadi karena Git memiliki mode :
 
 - Lokal
 
@@ -122,7 +127,11 @@ Distribusi terpusat seperti ini membolehkan kita untuk bertukar kode dan berkola
 
 ## GitHub
 
-GitHub adalah layanan penyedia awan penyimpanan git sekaligus sosial media untuk pengguna git, ibarat instagramnya buat programmer.
+[GitHub](https://github.com) adalah layanan penyedia awan penyimpanan git sekaligus sosial media untuk pengguna git, ibarat instagramnya buat programmer.
+
+<center>
+    <img src="/pic/git-intro/lp-github.png" alt="landing page github" />
+</center>
 
 Sosial media ini punya fitur :
 
