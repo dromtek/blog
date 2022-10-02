@@ -11,11 +11,11 @@
         {{ macros_head::stylesheet() }}
 
         {% block seo %}
-        {% if config.extra.title_separator %}
-            {% set title_separator = " " ~ config.extra.title_separator ~ " " %}
-        {% else %}
-            {% set title_separator = " | " %}
-        {% endif %}
+            {% if config.extra.title_separator %}
+                {% set title_separator = " " ~ config.extra.title_separator ~ " " %}
+            {% else %}
+                {% set title_separator = " | " %}
+            {% endif %}
         {% endblock seo %}
 
         {% block head %}
