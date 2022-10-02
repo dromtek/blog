@@ -82,7 +82,7 @@ Ini memang tidak terlihat tampak, tetapi akan jelas ketika kamu melakukan checko
 
 - Stagging Area
 
-Stagging area yang bertugas mencatat sebuah status file di working tree sebelum di komit ke branch, baik itu modified, staged ataupun untracked.  
+Stagging area yang bertugas mencatat sebuah status file sebelum komit ke branch, baik itu modified, staged ataupun untracked. 
 
 - `.git` Directory
 
@@ -132,6 +132,7 @@ Distribusi terpusat seperti ini membolehkan kita untuk bertukar kode dan berkola
 <center>
     <img src="/pic/git-intro/lp-github.png" alt="landing page github" />
 </center>
+
 Sosial media ini punya fitur :
 
 - Sistem follower, kamu bisa liat update mutualan kamu lagi bikin apa dan nge-star proyek yang menarik.
