@@ -3,7 +3,7 @@ title = "Cek cek 123"
 slug = "cek-123"
 description = "Ngetest tulisan doang minimal deskripsi 25 karakter maks 35"
 page_template = "page.html"
-draft = false
+draft = true
 author = "lort"
 [extra]
 category = "testing"
