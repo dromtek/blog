@@ -22,7 +22,7 @@ Membuat sesuatu yang berguna apalagi yang dipakai banyak orang bukan hal yang mu
 
 Saat kita menghadapi masalah, hal yang paling penting dilakukan adalah ambil ruang sejenak dan tentukan gambaran dari masalah yang kita hadapi, seperti kamu terkendala bangun pagi, susah untuk mencari suasana sosial baru ataupun kesulitan merencanakan piknik.
 
-Mulai dari contoh yang saya pribadi, saya kerap menumpuk cucian dan ketinggalan jadwal, hal yang saya lakukan mengambil ruang selangkah dari hingar bingar kehidupan memikirkan sebab-akibat dari apa yang terjadi dan mencari hal yang bisa membantu.
+Mulai dari contoh yang saya pribadi, saya kerap menumpuk cucian dan ketinggalan jadwal, hal yang saya lakukan mengambil ruang selangkah dari hingar bingar kehidupan lalu memikirkan sebab-akibat dari apa yang terjadi dan mencari hal yang bisa membantu.
 
 Penyebab dari penumpukan cucian dan ketinggalan jadwal karena kesulitan untuk membangun rutinitas. Lalu bagaimana saya membangun rutinitas ? jawabanya yaitu pembiasaan dan caranya ada banyak entah melalui penjadwalan atau mengikuti  _Cognitive-Behaivoral Theraphy_ oleh psikiater. Jelas saya akan mengambil opsi pertama karena faktor ekonomi dan keyakinan berhasil.
 
@@ -32,9 +32,9 @@ Kembali opsi solusi pertama yakni penjadwalaan. Solusi ini sederhana kita cukup 
 
 Iya , tetapi tidak untuk menjaganya agar bisa teratur dari hari ke hari. Solusi ini sangat tipis kemungkinan berhasil karena sangat bergantung pada interaksi kita, To-do list tidak bisa menyapa kita kapan waktunya sudah dekat.
 
-Rumusan masalah baru : metode penjadwalan perlu proses pembiasaan yang kerap kali kalah dengan aktivitas harian lainya. Pertanyaan selanjutnya, bagaimana kita mendapat prioritas lebih ?
+Rumusan masalah baru : metode penjadwalan perlu proses pembiasaan yang kerap kali kalah dengan aktivitas harian lainya. Pertanyaan selanjutnya, bagaimana todo-list mendapat prioritas lebih dari perhatian kita ?
 
-Pengalihan perhatian seperti notifikasi ataupun alarm telepon dapat melepaskan kita dari aktivitas sekarang untuk mengecek. Apakah ada program to-do list di Internet tertentu ada? jawabanya Ada tetapi tujuan kita disini adalah membuat satu untuk diri kita.
+Pengalihan perhatian seperti notifikasi ataupun alarm telepon dapat melepaskan kita dari aktivitas sekarang untuk mengecek hp . Apakah ada program to-do list di Internet yang punya alarm? jawabanya Ada tetapi tujuan kita disini adalah membuat satu untuk diri kita.
 
 Sampai disini, merumuskan masalah tidak hanya cukup bercermin dengan masalah kehidupan sehari-hari. Kita perlu mengkritisi masalah tersebut sampai seberapa mungkin desain solusi tersebut membantu.
 
